@@ -1,0 +1,58 @@
+
+.Button button{
+  margin-top: 22px;
+  gap: 12px;
+   
+   width: 18%;
+   
+}
+
+.product-grid {
+    margin-top: 22px;
+ 
+  
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.product-grid .box{
+  
+    width: 80%;
+    height: 100%;
+    border-radius: 20px;
+    gap: 20px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   
+}
+
+.product-item {
+  
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    width: 100%;
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.card-body h5 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
+
+.card-body p {
+    font-size: 14px;
+    color: #555;
+}
+
+
+
